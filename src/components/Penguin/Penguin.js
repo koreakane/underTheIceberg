@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Parallax, Background } from "react-parallax";
 import "./Penguin.scss";
 
 const Penguin = props => {
+  const pictures = ["./assets/iceberg.png", "./assets/iceberg_crop.png"];
+
+  useEffect(() => {
+    pictures.forEach(picture => {
+      const img = new Image();
+      img.src = picture;
+      console.log(img)
+    });
+    console.log(pictures);
+  }, []);
+
   return (
     <div className="Landing">
       <Parallax
         className="lol1"
-        bgImage={require("./iceberg.png")}
+        bgImage={require("./assets/iceberg.png")}
         strength={200}
         renderLayer={percentage => (
           <div className="fullContainer">
