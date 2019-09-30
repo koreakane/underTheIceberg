@@ -1,0 +1,51 @@
+.lol1 {
+  height: 222vh;
+}
+
+.fullContainer {
+  height: 100%;
+}
+
+.semetexContainer {
+  position: relative;
+  // margin-top: 50%;
+  width: 100%;
+  height: 100%;
+  div {
+    position: absolute;
+    min-width: 100px;
+    h3 {
+      font-family: "Noto Sans CJK KR Light";
+      font-size: 1.1rem;
+      color: #515254;
+    }
+  }
+  .FrontEnd {
+    top: 38%;
+    left: 84%;
+  }
+  .BackEnd {
+    top: 45%;
+    left: 4%;
+  }
+  .UX {
+    top: 55%;
+    left: 18%;
+  }
+  .Design {
+    top: 62%;
+    left: 60%;
+  }
+  .Agile {
+    top: 73%;
+    left: 70%;
+  }
+  .Marketing {
+    top: 78%;
+    left: 10%;
+  }
+  .Branding {
+    top: 33%;
+    left: 70%;
+  }
+}

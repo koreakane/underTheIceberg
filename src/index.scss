@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  src: url("./fonts/NotoSansCJKkr-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR Light";
+  src: url("./fonts/NotoSansCJKkr-Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR Bold";
+  src: url("./fonts/NotoSansMonoCJKkr-Bold.otf") format("otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Noto Sans CJK KR", "Noto Sans CJK KR Light",
+    "Noto Sans CJK KR Bold", sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  //   "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  //   "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
